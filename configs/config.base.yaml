@@ -1,0 +1,21 @@
+# base configuration file for Colombia
+countries: ["CO"]
+
+enable:
+  retrieve_databundle: true
+  retrieve_databundle_sector: true
+  build_natura_raster: true
+  progress_bar: false
+
+run:
+  name: "CO_2020" # use this to keep track of runs with different settings
+  shared_cutouts: true # set to true to share the default cutout(s) across runs
+
+scenario:
+  simpl: [""]
+  ll: ["copt"]
+  clusters: [10]
+  opts: [Co2L-3h]
+  planning_horizons: # investment years for myopic and perfect; or costs year for overnight
+  - 2020
+  
