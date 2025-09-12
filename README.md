@@ -28,7 +28,7 @@ git submodule update --init --recursive
 
     mamba env create -f submodules/pypsa-earth-osm/envs/environment.yaml
 
-3b. You can check the (documentation)(https://pypsa-earth.readthedocs.io/en/latest/installation.html#install-dependencies) to install using lockfiles for your OS
+3b. You can check the (documentation)(https://pypsa-earth.readthedocs.io/en/latest/installation.html#install-dependencies) to install using lockfiles for your OS.
 
 4.  Activate `pypsa-earth` environment:
     ```bash
