@@ -17,11 +17,6 @@ If you have already cloned the repository without the `--recursive` flag, you ca
 git submodule update --init --recursive
 ```
 
-### Prerequisites
-
-- Python 3.8 or higher
-- Git
-
 ### Installation
 
 1. Clone the repository as described above.
