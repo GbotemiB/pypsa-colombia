@@ -8,7 +8,7 @@ Energy Modeling Case Study for Colombia
 This repository uses Git submodules. To clone the repository along with its submodules, use the following command:
 
 ```bash
-git clone --recursive https://github.com/GbotemiB/pypsa-colombia.git
+git clone --recursive https://github.com/pypsa-meets-earth/pypsa-colombia.git
 ```
 
 If you have already cloned the repository without the `--recursive` flag, you can initialize and update the submodules with:
@@ -24,9 +24,11 @@ git submodule update --init --recursive
    ```bash
    cd pypsa-colombia
    ```
-3. Install the necessary dependencies using `conda` or `mamba`:
+3a. Install the necessary dependencies using `conda` or `mamba`:
 
-    mamba env create -f submodules/pypsa-earth/envs/environment.yaml
+    mamba env create -f submodules/pypsa-earth-osm/envs/environment.yaml
+
+3b. You can check the (documentation)(https://pypsa-earth.readthedocs.io/en/latest/installation.html#install-dependencies) to install using lockfiles for your OS
 
 4.  Activate `pypsa-earth` environment:
     ```bash
