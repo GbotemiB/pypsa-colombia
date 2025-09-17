@@ -3,7 +3,6 @@ countries: ["CO"]
 
 enable:
   retrieve_databundle: true
-  retrieve_databundle_sector: true
   build_natura_raster: false
   progress_bar: false
 
@@ -15,9 +14,14 @@ scenario:
   simpl: [""]
   ll: ["copt"]
   clusters: [10]
-  opts: [Co2L-3h]
+  opts: [Co2L-24h]
   planning_horizons: # investment years for myopic and perfect; or costs year for overnight
   - 2020
+
+snapshots:
+  start: "2013-01-01"
+  end: "2014-01-01"
+  inclusive: "left" # end is not inclusive
 
 solving:
   solver:
