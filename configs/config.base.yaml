@@ -11,6 +11,12 @@ run:
   name: "CO_2020" # use this to keep track of runs with different settings
   shared_cutouts: true # set to true to share the default cutout(s) across runs
 
+# OSM data configuration
+osm_data:
+  historical_date: "2020-01-01" # Date for historical OSM data (YYYY-MM-DD format)
+  data_dir: "data/osm"
+  output_dir: "resources/osm/raw"
+
 scenario:
   simpl: [""]
   ll: ["copt"]
